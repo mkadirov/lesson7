@@ -1,0 +1,38 @@
+.timer {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(42, 119, 119);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.timer h1 {
+
+    color: white;
+    font-size: 96px;
+}
+
+.stop {
+    padding: 20px;
+    border-radius: 50%;
+    
+}
+
+.stop span {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    box-shadow: 1px 0 1px 0 white;
+    color: white;
+    
+}
+
+.btn-box{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
